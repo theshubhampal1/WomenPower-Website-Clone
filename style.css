@@ -1,0 +1,471 @@
+/* Project CSS Source Code by shubhampal.co.in */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+#icon {
+    height: 180px;
+    width: 42px;
+    background: #082062;
+    position: fixed;
+    top: 50%;
+    right: 0%;
+}
+
+.icon {
+    height: 45px;
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    height: 20px;
+    width: 20px;
+    filter: invert(100%);
+}
+
+#container {
+    height: 2000px;
+    width: 100%;
+}
+
+#box1 {
+    height: 715px;
+    width: 100%;
+    background: url(WomenPower-Website/banner.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#nav {
+    height: 72px;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+}
+
+#logo {
+    height: 72px;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo-img {
+    height: 72px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-img img {
+    height: 30px;
+    width: 30px;
+    filter: invert(100%);
+}
+
+#logo-txt {
+    height: 70px;
+    width: 60%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#menu {
+    height: 72px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul a {
+    text-decoration: none;
+    float: left;
+    color: rgb(239, 239, 239);
+    margin: 0px 16px;
+    font-size: 15px;
+}
+
+#btn1 {
+    height: 72px;
+    width: 9%;
+    background: #c84869;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.banner-heading {
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+}
+
+#box2 {
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.category {
+    height: 160px;
+    width: 33.33%;
+    padding-top: 40px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.category-heading {
+    font-size: 40px;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.category-heading a {
+    text-decoration: none;
+    color: white;
+}
+
+.category-para {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.banner-heading {
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+}
+
+#box3 {
+    height: 650px;
+    width: 100%;
+}
+
+#heading1 {
+    height: 190px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#post {
+    height: 300px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post {
+    height: 300px;
+    width: 280px;
+}
+
+.post-box1 {
+    height: 150px;
+    width: 100%;
+}
+
+.post-box1 img {
+    height: 150px;
+    width: 280px;
+}
+
+.post-box2 {
+    height: 150px;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    padding: 15px 10px 10px 20px;
+}
+
+.post-heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.post-box2 img {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.post-box2 img:last-child {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    top: 5px;
+}
+
+.post-box2 span:nth-child(3) {
+    margin-right: 15px;
+}
+
+.post-box2 span:last-child {
+    float: right;
+    font-size: 13px;
+}
+
+#btn2 {
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2 {
+    height: 50px;
+    width: 160px;
+    color: white;
+    background: #c44365;
+    border-style: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#box4 {
+    height: 250px;
+    width: 100%;
+    background: #213e8c;
+    color: white;
+    text-align: center;
+    padding: 65px;
+    box-sizing: border-box;
+}
+
+.box-heading {
+    font-size: 35px;
+    margin: 0px;
+}
+
+.box-para {
+    font-size: 18px;
+    margin: 0px;
+}
+
+#heading2 {
+    height: 190px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#box5 {
+    height: 680px;
+    width: 100%;
+}
+
+#event {
+    height: 360px;
+    width: 60%;
+    margin: auto;
+}
+
+.event {
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#date {
+    height: 120px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.date1 {
+    height: 120px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+}
+
+.date2 {
+    height: 120px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.date-txt1 {
+    color: #919191;
+}
+
+#event-txt {
+    height: 120px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 17px;
+}
+
+#btn3 {
+    height: 120px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn3 {
+    height: 45px;
+    width: 140px;
+    color: white;
+    background: #c44365;
+    border-style: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#box6 {
+    height: 480px;
+    width: 100%;
+    display: flex;
+}
+
+#form {
+    height: 480px;
+    width: 40%;
+    background: #213e8c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#form-img {
+    height: 480px;
+    width: 60%;
+    background-image: url(WomenPower-Website/formimage.jpg);
+    background-size: 100% 100%;
+}
+
+.form-heading {
+    font-size: 60px;
+    margin: 0px;
+}
+
+.form-para {
+    font-size: 28px;
+    margin: 0px;
+}
+
+#box7 {
+    height: 380px;
+    width: 100%;
+    display: flex;
+}
+
+.footer {
+    height: 380px;
+    width: 33.33%;
+}
+
+.footer1 {
+    padding: 100px 30px;
+    box-sizing: border-box;
+}
+
+.foot-heading {
+    font-size: 25px;
+    margin: 0px;
+}
+
+.foot-para {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.footer input {
+    height: 30px;
+    width: 100%;
+    border-style: none;
+    border-bottom: 2px solid red;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.btn6 {
+    height: 45px;
+    width: 100%;
+    color: white;
+    background: #c44365;
+    border-style: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.footer2 .foot-para {
+    color: #919191;
+}
+
+.footer2 {
+    padding: 100px 0px;
+    box-sizing: border-box;
+}
+
+.footer3 {
+    padding-top: 100px;
+    box-sizing: border-box;
+    padding-left: 150px;
+}
+
+.footer3 ol {
+    list-style: none;
+    position: relative;
+    left: -35px;
+}
+
+.footer3 a li {
+    margin: 15px 0px;
+}
+
+.footer3 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Project CSS Source Code by shubhampal.co.in | All Rights Reseverd. */
